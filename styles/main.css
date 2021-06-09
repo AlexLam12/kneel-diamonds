@@ -3,7 +3,9 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body,
+body{
+  display: flex;
+}
 button,
 input,
 select,
