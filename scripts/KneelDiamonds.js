@@ -38,6 +38,7 @@ export const KneelDiamonds = () => {
 }
 
 
+
 document.addEventListener(
     "click",
     (event) => { const clickItem = event.target
