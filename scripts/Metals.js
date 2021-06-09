@@ -4,6 +4,7 @@ const metals = getMetals()
 
 
 export const Metals = () => {
+    
     let html = "<ul>"
     
     // This is how you have been converting objects to <li> elements

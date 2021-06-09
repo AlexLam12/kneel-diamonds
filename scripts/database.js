@@ -49,8 +49,9 @@ export const getStyles = () => {
     return database.styles.map(style => ({...style}))
 }
 export const getOrders = () => {
-    return database.orders.map(order => ({...order}))
+    return database.customOrders.map(order => ({...order}))
 }
+
 
 
 export const setMetal = (id) => {
